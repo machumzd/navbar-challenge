@@ -30,7 +30,14 @@ body{
 
     
 }
+#button1
+{
+background-color: blue;
+color: white;
 
+height:30px;
+font-weight: 600;
+}
 .nav .header:hover{
     background-color: #04AA6D;
 }
