@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">    <title>Navbar making</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body> 
+   
+    <div class="nav" id="navbar" >
+       <a class="header">heading</a>
+         
+        <a href="home" class="active">Home</a>
+        <a href="http://www.machumzd.ml/">about me</a> 
+        <a href="http://emplacement1.herokuapp.com/">placement cell</a>
+      <a href="http://gpckasaragod.ac.in/">our college</a>
+        
+       <a href="contact">contact</a>
+       <a href="javascript:void(0);" class="bar" onclick="fun()">
+    <i class="fa fa-bars"></i>
+    </a>
+    </div>
+    <div style="padding-left: 16px;">
+        <h1>resize your window</h1>
+        <h2>to see how it responsive</h2>
+        <input type="button" href="https://in.linkedin.com/in/abdul-mazood-14640b1aa" id="button" value="linkedin">
+    </div>
+
+
+    <script>
+        function fun() {
+            var x = document.getElementById("navbar");
+    if(x.className == "nav"){
+    x.className += " responsive";
+        }
+        else
+         {
+            x.className = "nav";
+        
+        }
+    }  
+    </script>
+
+</body>
+</html>
